@@ -385,3 +385,20 @@ code, pre {
         background-color: rgba(40, 40, 40, 0.1);
     }
 }
+
+@media (max-width: 280px) {
+
+    /* Hide the form and cli image */
+    .showcase-form,
+    .cli .grid > *:first-child {
+        display: none;
+    }
+
+    .showcase-text {
+        margin-bottom: 50px;
+    }
+
+    .container {
+        overflow: hidden;
+    }
+}
